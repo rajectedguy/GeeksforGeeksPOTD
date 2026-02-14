@@ -12,6 +12,7 @@ class Solution:
                     currSum += ele
             return cnt <= k
             
+            
         l, h = max(arr), sum(arr)
         res = max(arr)
         while l <= h:

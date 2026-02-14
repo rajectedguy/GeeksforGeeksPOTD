@@ -11,6 +11,7 @@ class Solution {
         }
         return k;
     }
+    
     public int minTime(int[] arr, int k) {
         int l=1,h=10000000,ans=-1;
         while(l<=h){

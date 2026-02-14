@@ -32,6 +32,7 @@ class Solution {
         };
         int high  = s;
         int res = -1;
+        
         while(low<=high)
         {
             int mid = (low+high)/2;
