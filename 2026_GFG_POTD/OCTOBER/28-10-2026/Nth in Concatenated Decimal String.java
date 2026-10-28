@@ -4,7 +4,6 @@ class Solution {
 		long len = 1;
 		long count = 9;
 		long start = 1;
-		
 		while (target > len * count) {
 			target -= len * count;
 			len++;
